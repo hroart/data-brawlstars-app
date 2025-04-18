@@ -1,9 +1,9 @@
 if (!process.env.API_BASE_URL) {
-    throw new Error('La variable API_BASE_URL no está definida');
+    throw new Error('API_BASE_URL is not defined');
 }
 
 if (!process.env.BEARER_TOKEN) {
-    throw new Error('La variable BEARER_TOKEN no está definida');
+    throw new Error('BEARER_TOKEN is not defined');
 }
 
 export const API_BASE_URL = process.env.API_BASE_URL;
